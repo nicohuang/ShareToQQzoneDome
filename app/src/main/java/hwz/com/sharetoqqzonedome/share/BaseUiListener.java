@@ -16,6 +16,7 @@ public class BaseUiListener implements IUiListener
     {
         JSONObject object = (JSONObject)o;
         doComplete(object);
+        System.out.println("1");
     }
     //在这里可以做一些登录成功的处理
     protected void doComplete(JSONObject values)
@@ -26,13 +27,13 @@ public class BaseUiListener implements IUiListener
     @Override
     public void onError(UiError e)
     {
-
+        System.out.println("2");
     }
     //在这里可以做登录被取消的处理
     @Override
     public void onCancel()
     {
-
+        System.out.println("3");
     }
 }
 

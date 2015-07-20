@@ -24,7 +24,7 @@ public class MainActivity extends Activity
 {
     public static Tencent mTencent;
     //appid
-    private static String APP_ID = "1104720510";
+    private static String APP_ID = "222222";
     //标题
     private EditText edt_title;
     //内容
